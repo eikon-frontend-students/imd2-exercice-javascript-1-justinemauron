@@ -10,7 +10,7 @@ changeColor.addEventListener("click", () => {
 });
 
 toggleColor.addEventListener("click", () => {
-  if (toggleColor.style.backgroundColor === "red") {
+  if (toggleColor.style.backgroundColor == "red") {
     toggleColor.style.backgroundColor = "orange";
   } else {
     toggleColor.style.backgroundColor = "red";
@@ -18,7 +18,7 @@ toggleColor.addEventListener("click", () => {
 });
 
 trigger.addEventListener("click", () => {
-  if ((target.style.display = "block")) {
+  if (target.style.display == "block") {
     target.style.display = "none";
   } else {
     target.style.display = "block";
